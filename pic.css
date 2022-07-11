@@ -1,0 +1,118 @@
+.bg-image {
+    /* The image used */
+    background-image: url("bag.jpg");
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(1px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-text{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+      /* Fallback color */
+   /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+ margin-top: 100px;
+  top: 500px;
+  left: 500px;
+  transform: translate(10%, -200%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+  .about{
+    text-decoration: underline;
+    position: relative;
+    font: size 20px;
+    color: var(--first-color);
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-4);
+    text-align: center;
+    font-weight: bolder;
+
+  }
+  .name{
+    position: relative;
+    font: size 20px;
+    color: var(--first-color);
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-4);
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+.skill{
+  height: 40px;
+  width: 300px;
+  border: 3px;
+  border-color: aqua;
+  background-color: aquamarine;
+  box-shadow:10px;
+  border-radius:100px ;
+  
+ 
+}
+.skillNam{
+text-align:center}
+/*.pers{
+   
+    
+  background-color: blue;
+  height: 0.25rem;
+  border-radius: 0.5rem;
+
+  width: 500px;
+}*/
+.btn .fas, .btn .fab, .btn .far {
+      margin-left: 3px;
+    }
+
+    h6 {
+      line-height: 1.7;
+    }
+
+    footer.page-footer {
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+
+    body {
+      background-color: #eee;
+    }
+
+    .btn.peach-gradient {
+      color: #fff !important;
+    }
+
+    .map-container-section {
+      overflow:hidden;
+      /* padding-bottom:56.25%; */
+      position:relative;
+      height:0;
+    }
+  .map-container-section iframe {
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+    }
+  section{
+    background-image: url('black.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
