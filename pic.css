@@ -1,6 +1,6 @@
 .bg-image {
     /* The image used */
-    background-image: url("bag.jpg");
+    background-image: url("asset/bag.jpg");
     
     /* Add the blur effect */
     filter: blur(8px);
@@ -111,7 +111,7 @@ text-align:center}
       position:absolute;
     }
   section{
-    background-image: url('black.jpg');
+    background-image: url('asset/black.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
